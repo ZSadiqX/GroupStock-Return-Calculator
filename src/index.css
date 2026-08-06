@@ -21,7 +21,8 @@
 
 body {
   background-image: url('./assets/background.jpg');
-  background-size: cover;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-color: #0f172a; /* Fallback color */
