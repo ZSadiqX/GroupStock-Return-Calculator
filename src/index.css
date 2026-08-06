@@ -20,7 +20,11 @@
 }
 
 body {
-  background: linear-gradient(135deg, #020617, #0f172a, #1e1b4b);
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #0f172a; /* Fallback color */
   color: var(--text-primary);
   min-height: 100vh;
   display: flex;
